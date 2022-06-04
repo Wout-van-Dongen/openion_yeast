@@ -1,0 +1,32 @@
+# The time it takes for the yeast concentration to double. I completely forgot what calculation I used for this but in general a higher value here means a longer wait time.
+openion_yeast_doubling_time (Yeast Doubling Time) float 90
+
+# The maximum capacity of the barrel's water tank measured in buckets.
+openion_yeast_max_water_level (Water Tank Level) int 3
+
+# The bucket's volume in centilitres.
+openion_yeast_water_per_bucket (Bucket Capacity) float 100
+
+# The yeast vessel's volume in centilitres.
+openion_yeast_yeast_per_bottle (Bottle Capacity) float 5
+
+# The speed by which a bottle gets filled - measured in real-life seconds.
+openion_yeast_bottle_fill_speed (Bottle Fill Speed) float 12
+
+# Enables negative health effects for the yeast culture when there is no more feed.
+openion_yeast_yeast_starvation (Yeast Can Starve) bool false
+
+# How many carriers to consume for each carrier action
+openion_yeast_carrier_cost (Carrier Cost) int 1
+
+# How many vessels to consume for each fill action
+openion_yeast_vessel_cost (Vessel Cost) int 1
+
+# How many moists to consume for each moist action
+openion_yeast_water_cost (Water Cost) int 1
+
+# How many feed to consume for each feed action
+openion_yeast_feed_cost (Feed Cost) int 5
+
+# How many yeasts to produce for each fill action
+openion_yeast_yeast_production (Yeast Production) int 1
